@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# NuGet / tooling artifacts
+*.nupkg
+artifacts/
+project.lock.json
+project.fragment.lock.json
+
+# Logs / temp
+*.log
+*.swp
+*.swo
+
+# Project-generated artifacts
+/GTFSParser/out/
+/GTFSParser/out.zip
+/sample.zip
+**/routes_export.csv
+**/stops_export.geojson
+
